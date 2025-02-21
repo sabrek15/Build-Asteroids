@@ -6,9 +6,13 @@ class CircleShape(pygame.sprite.Sprite):
             super().__init__(self.containers)
         else:
             super().__init__()
+
+        self.position = pygame.Vector2(x, y)
+        self.velocity = pygame.Vector2(0, 0)
+        self.radius = radius
     
     def draw(self, screen):
-        pass
+        pygame.draw.polygon(screen, "white", self.triangle(), 2)
 
     def update(self, dt):
         pass
