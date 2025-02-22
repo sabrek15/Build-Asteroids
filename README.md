@@ -103,7 +103,7 @@ Build-Asteroids/
 |-- asteroid.py         # Defines the Asteroid class, handles the asteroid creation and updating
 |-- shot.py             # Defines the Shot classe, handles bullet creation
 |-- circeshape.py       # Defines the CircleShape class for circlular objects, provides common functionality
-|-- asteroidfeild.py    # Defines AsteroidField class which manges the movement of asteroids and creation of asteroids
+|-- asteroidfield.py    # Defines AsteroidField class which manges the movement of asteroids and creation of asteroids
 |-- requirements.txt    # This file contains whatever required library files, etc.., to be installed to run the game
 ```
 
