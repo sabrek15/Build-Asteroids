@@ -97,13 +97,13 @@ Ensure you have **Python 3.12**(or later) installed on your system. If you do no
 ```
 Build-Asteroids/
 |-- .gitignore
-|-- constansts.py   # Defines game constants such as speed, size, etc..,
-|-- main.py     # Entry point of the game, initializes the game loop
-|-- player.py   # Defines Player class, handles movements and shooting
-|-- asteroid.py     # Defines the Asteroid class, handles the asteroid creation and updating
-|-- shot.py     # Defines the Shot classe, handles bullet creation
-|-- circeshape.py   # Defines the CircleShape class for circlular objects, provides common functionality
-|-- asteroidfeild.py    Defines AsteroidField class which manges the movement of asteroids and creation of asteroids
+|-- constansts.py       # Defines game constants such as speed, size, etc..,
+|-- main.py             # Entry point of the game, initializes the game loop
+|-- player.py           # Defines Player class, handles movements and shooting
+|-- asteroid.py         # Defines the Asteroid class, handles the asteroid creation and updating
+|-- shot.py             # Defines the Shot classe, handles bullet creation
+|-- circeshape.py       # Defines the CircleShape class for circlular objects, provides common functionality
+|-- asteroidfeild.py    # Defines AsteroidField class which manges the movement of asteroids and creation of asteroids
 |-- requirements.txt    # This file contains whatever required library files, etc.., to be installed to run the game
 ```
 
